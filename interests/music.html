@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/htmx.org@1.9.5/dist/htmx.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <title>print("hello world")</title>
+  </head>
+  <body>
+      <header class="container">
+        <hgroup>
+          <h1>David Finder's Website</h1>
+          <h2>Implemented with Pico, AWS, and HTMX</h2>
+        </hgroup>
+        <nav>
+          <ul>
+            <li>
+              <details role="list">
+                <summary aria-haspopup="listbox" role="button" class="secondary">Reading List</summary>
+                <ul role="listbox">
+                  <li><a href="./reading_list/philosophy.html" htx-boost="true">Philosophy</a></li>
+                  <li><a href="./reading_list/math.html" htx-boost="true">Mathematics</a></li>
+                  <li><a href="./reading_list/computer_science.html" htx-boost="true"> Computer Science</a></li>
+                  <li><a href="./reading_list/info_tech.html" htx-boost="true">Information Technology</a></li>
+                  <li><a href="./reading_list/psyche.html" htx-boost="true">Psychology</a></li>
+                  <li><a href="./reading_list/ir.html" htx-boost="true">IR</a></li>
+                  <li><a href="./reading_list/fiction.html" htx-boost="true">For Fun!</a></li>
+                </ul>
+              </details>
+            </li>
+            <li> 
+              <details role="list"> 
+                <summary aria-haspopup="listbox" role="button">Interests</summary>
+                <ul role="listbox">
+                  <li><a href="./interests/israeli_dance.html" htx-boost="true">Israeli Dance</a></li>
+                  <li><a href="./interests/movies.html" htx-boost="true">Movies</a></li>
+                  <li><a href="./interests/television.html" htx-boost="true"></a>Television</li>
+                  <li><a href="./interests/language.html" htx-boost="true"></a>Language</li>
+                  <li><a href="./interests/music.html" htx-boost="true"></a>Music</li>
+                  <li><a href="./interests/gaming.html" htx-boost="true"></a>Gaming</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details role="list">
+                <summary aria-haspopup="listbox">Projects</summary>
+                <ul role="listbox">
+                  <li><a href="./projects/game-projects.html" htx-boost="true">Gaming Projects</a></li>
+                  <li><a href="./projects/programming-projects.html/" htx-boost="true">Programming Projects</a></li>
+                  <li><a href="./projects/modeling-projects.html" htx-boost="true">3D Printing Projects</a></li>
+                  <li><a href="./projects/other-hobbies.html" htx-boost="true">Other</a></li>
+                </ul>
+              </details>
+            </li>
+            <li> 
+              <a role="button" href="./resume.html" class="secondary">Resume</a>
+            </li>
+            <li>
+              <a role="button" href="./contact-info.html">Contact me!</a>
+            </li>
+            <li> 
+              <a role="button" href="./more.html">More About Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="container">
+        <section id="intro">
+          <p>&nbsp Heyo, this is David Finder's webpage. If you're looking at this page, you're likely either:
+            <ul>
+            <li>A fascinating individual inside of the DMV area</li>
+            <li>A prospective employer in tech</li>
+            </ul>
+            But in any case, welcome. This site is mostly intended as a way for me to keep track of my personal projects, thoughts on culture, and present a scaffold to others of who I am as an individual.
+            It's a bit of a callback to the pre-social media form of internet. I intend to keep things simple around here.
+          </p>
+        </section>
+        <section id="about">
+          
+        </section>
+        <footer> 
+          
+        </footer>
+    </main>
+  </body>
+</html>
