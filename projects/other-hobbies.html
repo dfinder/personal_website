@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/htmx.org@1.9.5/dist/htmx.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <title>print("hello world")</title>
+  </head>
+  <body>
+      <header class="container">
+        <hgroup>
+          <h1>David Finder's Website</h1>
+          <h2>Implemented with Pico, AWS, and HTMX</h2>
+        </hgroup>
+        <nav>
+          <ul>
+            <li>
+              <details role="list">
+                <summary aria-haspopup="listbox" role="button" class="secondary">Reading List</summary>
+                <ul role="listbox">
+                  <li><a href="./reading_list/philosophy.html" htx-boost="true">Philosophy</a></li>
+                  <li><a href="./reading_list/math.html" htx-boost="true">Mathematics</a></li>
+                  <li><a href="./reading_list/computer_science.html" htx-boost="true"> Computer Science</a></li>
+                  <li><a href="./reading_list/info_tech.html" htx-boost="true">Information Technology</a></li>
+                  <li><a href="./reading_list/psyche.html" htx-boost="true">Psychology</a></li>
+                  <li><a href="./reading_list/ir.html" htx-boost="true">IR</a></li>
+                  <li><a href="./reading_list/fiction.html" htx-boost="true">For Fun!</a></li>
+                </ul>
+              </details>
+            </li>
+            <li> 
+              <details role="list"> 
+                <summary aria-haspopup="listbox" role="button">Interests</summary>
+                <ul role="listbox">
+                  <li><a href="./interests/israeli_dance.html" htx-boost="true">Israeli Dance</a></li>
+                  <li><a href="./interests/movies.html" htx-boost="true">Movies</a></li>
+                  <li><a href="./interests/television.html" htx-boost="true"></a>Television</li>
+                  <li><a href="./interests/language.html" htx-boost="true"></a>Language</li>
+                  <li><a href="./interests/music.html" htx-boost="true"></a>Music</li>
+                  <li><a href="./interests/gaming.html" htx-boost="true"></a>Gaming</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details role="list">
+                <summary aria-haspopup="listbox">Projects</summary>
+                <ul role="listbox">
+                  <li><a href="./projects/game-projects.html" htx-boost="true">Gaming Projects</a></li>
+                  <li><a href="./projects/programming-projects.html/" htx-boost="true">Programming Projects</a></li>
+                  <li><a href="./projects/modeling-projects.html" htx-boost="true">3D Printing Projects</a></li>
+                  <li><a href="./projects/other-hobbies.html" htx-boost="true">Other</a></li>
+                </ul>
+              </details>
+            </li>
+            <li> 
+              <a role="button" href="./resume.html" class="secondary">Resume</a>
+            </li>
+            <li>
+              <a role="button" href="./contact-info.html">Contact me!</a>
+            </li>
+            <li> 
+              <a role="button" href="./more.html">More About Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+        <h3>Ring Alarm</h3>
+        <p> 
+          I met a phenomenal woman at an Israeli Dance camp who had an interesting problem. 
+          Without getting too far into her personal details, she couldn't wear a watch, and she wanted a timer she could use in a SCIF, so she could better keep track of time. 
+          She normally wears a cute little golden ring watch, but watches of this size don't have alarms, and generally have limited interfaces.
+          I'm not an electrical engineer, but I did some breadboarding back in high school, and I've done a bit of research. 
+          I stumbled upon a cheap digital ring watch by a Japanese company called <a href="https://minipikoo.com/"> Pikoo</a>
+          I ordered it in the mail, took it apart, and reasoned that I could probably create a similar sized ring alarm if I substituted the circuit board for one that carried the program I wanted. 
+          The ring is roughly 15mmx15mmx6mm, and I can find a bunch of parts that are barely at this level of miniturization. I'm currently ordering them off the web, and I'll see about breadboarding something together.
+          
+          <h4> Case</h4>
+          Planning on 3D printing this if the original pikoo case is too big
+          <h4> Processor</h4>
+
+          <h4> Battery</h4>
+
+          <h4> Display</h4>
+
+          <h4> PCB</h4>
+
+          The greatest utility of these rings is that they have a 7 segment display that is so small 
+        </p>
+        <footer> 
+          
+        </footer>
+    </main>
+  </body>
+</html>
